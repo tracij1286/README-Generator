@@ -35,7 +35,7 @@ function generateMarkdown(data) {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
+  * [Contributors](#contributors)
   * [Licenses](#licenses)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -46,9 +46,11 @@ function generateMarkdown(data) {
   
   Refer to [https://choosealicense.com/](https://choosealicense.com/)
 
-
+  ## Installation 
+  ${data.installation}
 
   ## Usage
+  ${data.usage}
   ![alt text](assets/images/screenshot.png)
 
 

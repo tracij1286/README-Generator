@@ -26,7 +26,7 @@ inquirer.prompt([
   },
   {
     type: "input",
-    name: "contributors",
+    name: "Contributors",
     message: "What does the user need to know about contributing to the repo?",
   },
   {
