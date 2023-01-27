@@ -1,14 +1,14 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === 'MIT') {
-    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(http://opensource.org/licenses/MIT)`
+  if (license === "MIT") {
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(http://opensource.org/licenses/MIT)`;
   }
-  if (license === 'GNU') {
-    return `https://www.gnu.org/licenses/gpl-3-0`
+  if (license === "GNU") {
+    return `https://www.gnu.org/licenses/gpl-3-0`;
   }
-  if (license === 'Unlicense') {
-    return ``
+  if (license === "Unlicense") {
+    return ``;
   }
 }
 
@@ -19,9 +19,9 @@ function renderLicenseSection(license) {
     return ``;
   } else {
     return `## Licenses
-    This project is covered under the ${license} license. To learn more about what this means, click the license button at the top.`
+    This project is covered under the ${license} license. To learn more about what this means, click the license button at the top.`;
   }
-  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   
   ## License
-
+  ${data.licenses}
   ${renderLicenseBadge(data.licenses)} 
   
   Refer to [https://choosealicense.com/](https://choosealicense.com/)
@@ -61,8 +61,15 @@ function generateMarkdown(data) {
 
   ${data.test}
 
+
+  ## Links
+  ${data.links}
   ## Questions 
-  If you have any questions about this repo, contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
+  If you have any questions about this repo, contact me directly at ${
+    data.email
+  }. You can find more of my work at [${data.github}](https://github.com/${
+    data.github
+  }/).
 
 `;
 }

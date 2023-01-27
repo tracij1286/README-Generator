@@ -26,7 +26,7 @@ inquirer.prompt([
   },
   {
     type: "input",
-    name: "Contributors",
+    name: "contributors",
     message: "What does the user need to know about contributing to the repo?",
   },
   {
@@ -41,6 +41,11 @@ inquirer.prompt([
     name: "test",
     message: "What command should be run to run test?",
     default: "npm test",
+  },
+  {
+    type: "input",
+    name: "links",
+    message: "Include link to your application video here",
   },
   {
     type: "input",
