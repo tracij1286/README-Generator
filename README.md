@@ -28,7 +28,7 @@
 
 
   ## Contributors
-  It its a pubic repo so contributors are welcome to add to this application
+   It its a pubic repo so contributors are welcome to add to this application
 
   ## Tests
 
@@ -36,7 +36,7 @@
 
 
   ## Links
-  wwww.idk.com
+  https://drive.google.com/file/d/1MXOvD49hRao6ANAa4XQw29Nx5nc2_2js/view?usp=sharing
   ## Questions 
-  If you have any questions about this repo, contact me directly at tracij50@gmail.com. You can find more of my work at [tracij1286](https://github.com/tracij1286/).
+  If you have any questions about this repo, contact me directly at tracij50@gmail.com. You can find more of my work at [Tracij1286 on Github](https://github.com/Tracij1286 on Github/).
 
